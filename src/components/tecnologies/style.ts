@@ -2,9 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     margin-top: 28px;
-    @media (max-width: 425px){
-        padding: 0px 15px;
-    }
 `
 export const FlexBox = styled.div`
     display: flex;

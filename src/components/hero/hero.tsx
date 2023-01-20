@@ -11,7 +11,7 @@ export const Hero = ()=>{
             </S.Welcome>
             <S.Logo src={hand}/>
             <S.Title>
-                Olá meu nome é Leonardo
+                Olá, meu nome é Leonardo
             </S.Title>
             <S.Divider/>
             <S.Resume>

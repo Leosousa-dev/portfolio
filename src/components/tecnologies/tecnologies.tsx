@@ -19,7 +19,7 @@ export const Tecnologies = ()=>{
                     <S.Title>📱 ui/ux</S.Title>
                     <span>Experiência com</span>
                     <S.List>
-                        <li>design e prototipação ultilizando Figma</li>
+                        <li>design e prototipação ultilizando <strong>Figma</strong></li>
                     </S.List>           
                 </S.BoxCol>
             </S.FlexBox>

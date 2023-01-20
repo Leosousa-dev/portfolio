@@ -12,7 +12,7 @@ export const Projects = ()=>{
                     {Data.Projects.map((projects,index)=>{
                         return(
                             <S.Box key={index}>
-                                <img src={tumb} alt="" />
+                                <S.Tumb src={tumb} alt="tumb-project"/>
                                 <h3>{projects.Title}</h3>
                                 <ul>
                                     <S.ItemList>{projects.Stacks}</S.ItemList>

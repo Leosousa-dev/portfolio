@@ -6,7 +6,7 @@ export const Container = styled.section`
 export const FlexContainer = styled.div`
     display: flex;
     gap: 24px;
-    margin-top: 32px;
+    margin-top: 24px;
     @media (max-width: 425px){
         flex-direction: column;
         align-items: center;
@@ -25,4 +25,8 @@ export const ItemList = styled.li`
 export const Link = styled.a`
     margin-left: 6px;
     text-decoration: underline;
+`
+export const Tumb = styled.img`
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
 `

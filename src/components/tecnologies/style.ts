@@ -16,6 +16,10 @@ export const FlexBox = styled.div`
 export const BoxCol = styled.div`
     display: flex;
     flex-direction: column;
+    @media (max-width: 425px){
+        font-size: 20px;
+        color: #A3AEB1;
+    }
 `
 export const Title = styled.h3`
     margin-bottom: 6px;
